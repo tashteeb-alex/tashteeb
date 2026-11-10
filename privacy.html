@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+(function(){var l=null;try{l=localStorage.getItem('lang')}catch(e){}
+if(l!=='ar'&&l!=='en'){var n=(navigator.languages&&navigator.languages[0])||navigator.language||'en';l=/^ar/i.test(n)?'ar':'en';}
+document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr';})();
+</script>
+<title>Privacy notice | Tashteeb</title>
+<meta name="description" content="How Tashteeb uses the details you share with us.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/config.js"></script>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo" aria-label="Tashteeb home">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span>Tashteeb<small class="ar-inline">تشطيب</small></span>
+    </a>
+    <div class="nav-right">
+      <button class="lang" id="langBtn" type="button"><span data-en>عربي</span><span data-ar>English</span></button>
+      <a href="index.html" class="btn btn-primary"><span data-en>Back to site</span><span data-ar>رجوع للموقع</span></a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section>
+  <div class="wrap legal">
+    <div class="kicker"><span data-en>Privacy notice</span><span data-ar>سياسة الخصوصية</span></div>
+    <h1 style="font-size:36px;color:var(--navy);margin-bottom:10px"><span data-en>How we use your details</span><span data-ar>إزاي بنستخدم بياناتك</span></h1>
+    <p><span data-en>Last updated: November 2026</span><span data-ar>آخر تحديث: نوفمبر 2026</span></p>
+
+    <h2><span data-en>What we collect</span><span data-ar>بنجمع إيه</span></h2>
+    <ul>
+      <li><span data-en>What you fill in our forms: name, phone number, area, the service you need, budget range and project details.</span><span data-ar>اللي بتكتبه في الفورم: الاسم، رقم الموبايل، المنطقة، الخدمة اللي محتاجها، الميزانية، وتفاصيل الشغل.</span></li>
+      <li><span data-en>Messages and photos you send us on WhatsApp.</span><span data-ar>الرسايل والصور اللي بتبعتها لنا على واتساب.</span></li>
+      <li><span data-en>For contractors and craftsmen: your trade, experience, team and work areas.</span><span data-ar>للمقاولين والصنايعية: التخصص، الخبرة، الفريق، ومناطق الشغل.</span></li>
+    </ul>
+
+    <h2><span data-en>Why we use it</span><span data-ar>بنستخدمها ليه</span></h2>
+    <ul>
+      <li><span data-en>To contact you about your request and match you with a suitable contractor.</span><span data-ar>عشان نتواصل معاك بخصوص طلبك ونوصلك بالمقاول المناسب.</span></li>
+      <li><span data-en>To follow up on your project and handle any issues.</span><span data-ar>عشان نتابع مشروعك ونحل أي مشكلة.</span></li>
+      <li><span data-en>To review contractor and craftsman applications.</span><span data-ar>عشان نراجع طلبات المقاولين والصنايعية.</span></li>
+    </ul>
+
+    <h2><span data-en>Who sees it</span><span data-ar>مين بيشوفها</span></h2>
+    <p><span data-en>Our team, and the contractor matched to your request, only the details they need to do the job. We never sell your details or share them for advertising by others.</span><span data-ar>فريقنا، والمقاول اللي اتختار لطلبك، وبس التفاصيل اللي محتاجها عشان يشتغل. ومش بنبيع بياناتك ولا بنشاركها مع حد للإعلانات.</span></p>
+
+    <h2><span data-en>Website analytics</span><span data-ar>إحصائيات الموقع</span></h2>
+    <p><span data-en>We may use tools such as Google Analytics and Meta Pixel to understand visits to the site and measure our ads. These tools may use cookies.</span><span data-ar>ممكن نستخدم أدوات زي Google Analytics وMeta Pixel عشان نفهم زيارات الموقع ونقيس الإعلانات، والأدوات دي ممكن تستخدم كوكيز.</span></p>
+
+    <h2><span data-en>Your choices</span><span data-ar>حقك</span></h2>
+    <p><span data-en>You can ask us at any time to see, correct or delete your details. Message us on WhatsApp.</span><span data-ar>تقدر تطلب مننا في أي وقت تشوف بياناتك، تعدلها، أو تمسحها. ابعتلنا على واتساب.</span> <a href="#" class="js-wa" style="color:var(--orange-2);font-weight:700">WhatsApp</a></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="copy">© <span id="yr"></span> Tashteeb. <span data-en>All rights reserved.</span><span data-ar>جميع الحقوق محفوظة.</span></div>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>
